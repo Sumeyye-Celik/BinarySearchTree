@@ -1,0 +1,22 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+=>root 4'tür.
+=>7 root'un sağında bulunur.
+=>5 root'un sağında, düğüm 7'nin solunda bulunur.
+=>1 root'un solunda bulunur.
+=>8 root'un sağında, düğüm 7'nin sağında bulunur.
+=>3 root'un solunda, düğüm 1'in sağında bulunur.
+=>6 root'un sağında, düğüm 7'nin solunda, düğüm 5'in sağında bulunur.
+=>0 root'un solunda, düğüm 1'in solunda bulunur.
+=>9 root'un sağında, düğüm 7'nin sağında, düğüm 8'in sağında bulunur.
+=>2 root'un solunda, düğüm 1'in sağında, düğüm 3'ün solunda bulunur. 
+
+
+		
+			  4
+
+		 1	  |	   7
+
+	     0	 |   3	  |    5   |   8
+	
+		 |  2	  |     6  |     9
